@@ -9,12 +9,13 @@
     background-image: url(../img/streetsnap.webp);
     background-size: cover;
     background-position: center;
+    
 }
 
 #inloggegevens{
     height: 100px;
     width: 100px;
-    top: 670px;
+    top: 750px;
     left: 650px;
     position:absolute;
 }
@@ -22,7 +23,14 @@
 #cantlogin{
     height: 100px;
     width: 100px;
-    top: 800px;
+    top: 910px;
     left: 650px;
     position:absolute;
+}
+
+#inlogpaginaknop{
+    height: 100px;
+    top: 890px;
+    left: 650px;
+    position: relative;
 }
