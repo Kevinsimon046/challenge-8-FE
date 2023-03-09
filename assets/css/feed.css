@@ -1,18 +1,10 @@
-img {
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
-    margin-left: -50;
-    margin-top: -50;
-
-  }
-
-  body {
+body {
     background-color: darkgrey;
-    
-  
   
   }
+
+.profilepic{
+position: relative;
+width: 100px;
+height: 100px;  
+}
