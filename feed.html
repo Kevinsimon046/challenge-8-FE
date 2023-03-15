@@ -12,15 +12,39 @@
 </head>
 
 <body>
-<div class="profilepic">
-<img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/132497889/original/2221ea727adf0359af4774e637d2e769938a283e/create-a-personal-minimalist-profile-picture-or-banner.png" width=100px;alt="">
- 
-</div>
-<div class="profiel">
-<li> <a href="profile.html">Profiel</a></li>
-</div>
-<div class="Home">
-    <li> <a href="feed.html">Home</a></li>
-</div>
-</body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="profilepic">
+            <a href="profile.html"><img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/132497889/original/2221ea727adf0359af4774e637d2e769938a283e/create-a-personal-minimalist-profile-picture-or-banner.png" 
+            href="profile.html" width=110px;alt=""></a>
+            </div>
+        <a href="feed.html">home</a>
+        <a href="#">Services</a>
+        <a href="profile.html">profile</a>
+        <a href="info.html">about us</a>
+        <a href="login.html">log uit</a>
+      </div>
+      
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+      </script>
+
+
+
+        </body>
 
