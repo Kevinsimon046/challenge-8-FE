@@ -56,15 +56,17 @@ margin-top: 40px;
   left: 1150px;
 }
 .box2 {
+  width: 50px;
+  height: 50px;
   position: relative;
   left: 200px;
-  top: -470px;
+  top: -400px;
 }
 .whitebox {
   border: 1px solid white;
   background-color: aliceblue;
-  width: 925px;
-  height: 640px;
+  width: 830px;
+  height: 570px;
   top: 50px;
   left: 175px;
   position: relative;
