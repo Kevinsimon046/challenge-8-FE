@@ -149,7 +149,7 @@ a .material-icons {
 
 .header-filter:after, .header-filter:before {
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     width: 100%;
     height: 100%;
     display: block;
@@ -171,7 +171,7 @@ a .material-icons {
 .main {
     background: #FFF;
     position: relative;
-    z-index: 3;
+    z-index: -1;
 }
 
 .profile-page .profile {
@@ -370,6 +370,6 @@ footer p a{
 }
 
 footer p a:hover {
-    color: #9f26aa;
+    color: #c940d6;
     text-decoration: none;
 }
